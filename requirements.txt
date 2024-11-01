@@ -1,0 +1,6 @@
+streamlit
+openai
+pandas
+pinecone-client
+torch>=1.10.0
+transformers
