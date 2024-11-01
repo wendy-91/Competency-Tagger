@@ -4,12 +4,17 @@ import openai
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 from pinecone import Pinecone
+from helper_functions.utility import check_password
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="centered",
     page_title="Competency Tagger App"
 )
+
+# Check if the password is correct.  
+if not check_password():  
+    st.stop()
 
 # endregion <--------- Streamlit App Configuration --------->
 st.title("Competency Tagger App")
