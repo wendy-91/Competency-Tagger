@@ -19,9 +19,6 @@ if not check_password():
 # endregion <--------- Streamlit App Configuration --------->
 st.title("Competency Tagger App")
 
-# Sidebar Navigation
-page = st.sidebar.success("Select a Page:")
-
 # --- Configuration ---
 openai.api_key = st.secrets["openai_api_key"]  # Replace with your actual key
 pinecone = Pinecone(api_key=st.secrets["pinecone_api_key"], environment="Default")  # Initialize Pinecone
