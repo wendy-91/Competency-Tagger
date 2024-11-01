@@ -1,8 +1,17 @@
 import streamlit as st
+import pandas as pd
+import openai
+import torch
+from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
+from pinecone import Pinecone
 
+# region <--------- Streamlit App Configuration --------->
 st.set_page_config(
-    page_title="Multipage App",
+    layout="centered",
+    page_title="Competency Tagger App"
 )
-
+# Sidebar Navigation
 st.title("Main Page")
-st.sidebar.success("Select a page above.")
+page = st.sidebar.success("Select a Page:")
+
+
