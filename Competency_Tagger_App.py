@@ -4,7 +4,7 @@ import openai
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 from pinecone import Pinecone
-from helper_functions.utility import check_password
+from utility import check_password
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
