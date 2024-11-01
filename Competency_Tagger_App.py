@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import openai
 import torch
-from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 from pinecone import Pinecone
 from utility import check_password
 
