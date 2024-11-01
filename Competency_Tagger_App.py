@@ -25,9 +25,6 @@ index_name = st.secrets["pinecone_index"]  # Replace with your Pinecone index na
 # --- Query ---
 index = pinecone.Index(index_name)
 
-# Title of page
-st.title("Competency Tagger")
-
 # Get user input
 query_text = st.text_area(
     "Enter your programme details here:",
