@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import openai
-import torch
 from pinecone import Pinecone
 from utility import check_password
 
