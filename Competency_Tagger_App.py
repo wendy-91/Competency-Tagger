@@ -28,7 +28,7 @@ index = pinecone.Index(index_name)
 
 # Get user input
 query_text = st.text_area(
-    "Enter your programme details here:",
+    "nter your programme details here:",
     placeholder="Programme Title:\nProgramme Outline:\nProgramme Activities:",
     height=200  # You can adjust the height as needed
 )
