@@ -15,7 +15,7 @@ st.write("**IDO Review and Refinement:**  IDOs review the suggested tags, add or
 
 st.subheader("Implementation Details:")
 st.write("**Open-AI embedding model:** Embedding texts into vectors")
-st.write("**Vector Database:** A vector database is used to store vectorised competencies which are then used to compare with the IDOs vectorised input. The top 5 semantically similar results are then returned to the user.)
+st.write("**Vector Database:** A vector database is used to store vectorised competencies which are then used to compare with the IDOs vectorised input. The top 5 semantically similar results are then returned to the user.")
 st.write("**User Interface Development:**  A user-friendly interface will be designed to facilitate easy interaction and feedback from IDOs.")
 st.write("**System Architecture:** The platform will be built using a scalable and secure cloud-based architecture.")
 st.write("**Integration and Deployment:** The system will be integrated with relevant CSC systems and deployed in a phased approach.")
